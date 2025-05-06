@@ -27,6 +27,9 @@ class RayProcessor(RemoteProcessor):
         max_concurrency: int = 4,
         shared: bool = True,
         cpus_per_actor: int | None = None,
+        # Parameters for ModelActor (will be passed through)
+        expiration_check_interval_seconds: int = 60,
+        expiry_time_seconds: int = 3600,
     ):
         ray_helper.init()
         model_actor = self._get_model_actor_class()
@@ -40,7 +43,11 @@ class RayProcessor(RemoteProcessor):
                 num_cpus=cpus_per_actor
                 if cpus_per_actor is not None
                 else max_concurrency,
-            ).remote(device)
+            ).remote(
+                device,
+                expiration_check_interval_seconds=expiration_check_interval_seconds,
+                expiry_time_seconds=expiry_time_seconds,
+            )
             for i in range(pool_size)
         ]
 
@@ -188,16 +195,25 @@ class RayProcessor(RemoteProcessor):
                     # Don't check yet
                     return
                 self._last_expiration_check = current_time
+                
+                # Create a local copy of both dictionaries to avoid modification during iteration
+                model_access_times_copy = dict(self._model_access_times)
+                model_cache_copy = dict(self._model_cache)
+                
+                # Identify keys to expire
                 model_hashes_to_expire = [
                     key
-                    for key, last_access_time in self._model_access_times.items()
+                    for key, last_access_time in model_access_times_copy.items()
                     if current_time - last_access_time > self._expiry_time
                 ]
 
+                # Remove expired items from both dictionaries
                 for key in model_hashes_to_expire:
-                    if key in self._model_cache:
-                        del self._model_cache[key]
-                    del self._model_access_times[key]
+                    if key in model_cache_copy:
+                        if key in self._model_cache:
+                            del self._model_cache[key]
+                    if key in self._model_access_times:
+                        del self._model_access_times[key]
 
             def predict(
                 self,

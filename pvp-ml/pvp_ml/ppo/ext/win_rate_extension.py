@@ -17,9 +17,17 @@ logger = logging.getLogger(__name__)
 WON_LABEL = 1
 LOST_LABEL = 0
 
+# Define the terminal state labels - This is what the model was trained on originally
 TERMINAL_STATE_LABELS = {
     "WON": WON_LABEL,
     "LOST": LOST_LABEL,
+}
+
+# This is a separate dictionary that maps outcomes to labels for inference
+OUTCOME_TO_LABEL = {
+    "WON": WON_LABEL,
+    "LOST": LOST_LABEL,
+    "DESYNC": LOST_LABEL,  # Handle desynchronization by treating it as a loss
 }
 
 EXTENSION_LABELS = {
@@ -247,7 +255,8 @@ class WinRateExtension(ModelExtension):
         sampled_observations = []
         sampled_labels = []
         for episode_id, outcome in episode_outcomes.items():
-            label = TERMINAL_STATE_LABELS[outcome]
+            # Use OUTCOME_TO_LABEL instead of TERMINAL_STATE_LABELS to handle DESYNC
+            label = OUTCOME_TO_LABEL.get(outcome, LOST_LABEL)  # Default to LOST_LABEL for unknown outcomes
             episode_obs_indices = episode_indices_map[episode_id]
             sample_size = (
                 min(self._max_steps_per_episode, len(episode_obs_indices))

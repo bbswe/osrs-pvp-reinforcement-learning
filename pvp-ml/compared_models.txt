@@ -1,0 +1,107 @@
+[2025-May-06 09:38:46.602] [57505] INFO     | MainThread           [__main__.compare_models:52] Loading meta data for experiments/ThreadParallel/models/main-15462400-steps.zip
+[2025-May-06 09:38:46.641] [57505] INFO     | MainThread           [__main__.compare_models:54] Loading meta data for models/FineTunedNh.zip
+[2025-May-06 09:38:46.656] [57505] INFO     | MainThread           [__main__.compare_models:61] Creating remote processor with pool size 4
+[2025-May-06 09:38:46.657] [57505] INFO     | MainThread           [__main__.compare_models:67] Starting simulation
+[2025-May-06 09:41:22.887] [56864] ERROR    | MainThread           [asyncio.default_exception_handler:1758] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-2' coro=<AsyncEvaluator.evaluate() done, defined at /Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/util/async_evaluator.py:20> exception=OSError("Multiple exceptions: [Errno 54] Connect call failed ('::1', 7070, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 7070)")>
+Traceback (most recent call last):
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/selectors.py", line 562, in select
+    kev_list = self._selector.control(None, max_ev, timeout)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/./compare_models.py", line 123, in compare_models
+    current_env_kwargs = current_meta.custom_data["env_kwargs"].copy()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/util/async_evaluator.py", line 102, in evaluate
+    await env.close_async()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/pvp_env.py", line 391, in close_async
+    await self.__logout()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/pvp_env.py", line 560, in __logout
+    await self._remote_env_connector.send(action="logout")
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/remote_env_connector.py", line 20, in send
+    await self._connect()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/remote_env_connector.py", line 54, in _connect
+    self._reader, self._writer = await asyncio.open_connection(
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/base_events.py", line 1084, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 54] Connect call failed ('::1', 7070, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 7070)
+[2025-May-06 09:41:22.892] [56864] ERROR    | MainThread           [asyncio.default_exception_handler:1758] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-1' coro=<compare_models() done, defined at /Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/./compare_models.py:26> exception=OSError("Multiple exceptions: [Errno 54] Connect call failed ('::1', 7070, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 7070)")>
+Traceback (most recent call last):
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/selectors.py", line 562, in select
+    kev_list = self._selector.control(None, max_ev, timeout)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/./compare_models.py", line 123, in compare_models
+    current_env_kwargs = current_meta.custom_data["env_kwargs"].copy()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/util/async_evaluator.py", line 102, in evaluate
+    await env.close_async()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/pvp_env.py", line 391, in close_async
+    await self.__logout()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/pvp_env.py", line 560, in __logout
+    await self._remote_env_connector.send(action="logout")
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/remote_env_connector.py", line 20, in send
+    await self._connect()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/remote_env_connector.py", line 54, in _connect
+    self._reader, self._writer = await asyncio.open_connection(
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/base_events.py", line 1084, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 54] Connect call failed ('::1', 7070, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 7070)
+[2025-May-06 09:41:22.892] [56864] ERROR    | MainThread           [asyncio.default_exception_handler:1758] unhandled exception during asyncio.run() shutdown
+task: <Task finished name='Task-3' coro=<AsyncEvaluator.evaluate() done, defined at /Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/util/async_evaluator.py:20> exception=OSError("Multiple exceptions: [Errno 61] Connect call failed ('::1', 7070, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 7070)")>
+Traceback (most recent call last):
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/selectors.py", line 562, in select
+    kev_list = self._selector.control(None, max_ev, timeout)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/util/async_evaluator.py", line 102, in evaluate
+    await env.close_async()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/pvp_env.py", line 391, in close_async
+    await self.__logout()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/pvp_env.py", line 560, in __logout
+    await self._remote_env_connector.send(action="logout")
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/remote_env_connector.py", line 20, in send
+    await self._connect()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/remote_env_connector.py", line 54, in _connect
+    self._reader, self._writer = await asyncio.open_connection(
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/streams.py", line 48, in open_connection
+    transport, _ = await loop.create_connection(
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/base_events.py", line 1084, in create_connection
+    raise OSError('Multiple exceptions: {}'.format(
+OSError: Multiple exceptions: [Errno 61] Connect call failed ('::1', 7070, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 7070)

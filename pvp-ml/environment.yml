@@ -9,8 +9,8 @@ dependencies: # Pin all versions to make environment reproducible
   - numpy=1.26.2
   - gymnasium=0.28.1
   - pytorch=2.1.2
-  # - cpuonly # [CPU]
-  - pytorch-cuda=12.1 # [GPU]
+  - cpuonly # [CPU]
+  #- pytorch-cuda=12.1 # [GPU]
   - tensorboard=2.15.1
   - pip=23.3.2
   - aiohttp=3.9.1

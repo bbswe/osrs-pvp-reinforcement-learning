@@ -1,0 +1,33 @@
+[2025-May-06 09:44:15.f] [58206] INFO     | MainThread      [__main__.main:272] Comparing models:
+[2025-May-06 09:44:15.f] [58206] INFO     | MainThread      [__main__.main:273]   Current model: experiments/ThreadParallel/models/main-15462400-steps.zip
+[2025-May-06 09:44:15.f] [58206] INFO     | MainThread      [__main__.main:274]   Reference model: models/FineTunedNh.zip
+[2025-May-06 09:44:15.f] [58206] INFO     | MainThread      [__main__.compare_models:95] Using available port 43597 for game server
+[2025-May-06 09:44:16.633] [58206] INFO     | MainThread           [__main__.compare_models:117] Loading meta data for experiments/ThreadParallel/models/main-15462400-steps.zip
+[2025-May-06 09:44:16.678] [58206] INFO     | MainThread           [__main__.compare_models:119] Loading meta data for models/FineTunedNh.zip
+[2025-May-06 09:44:16.707] [58206] INFO     | MainThread           [__main__.compare_models:126] Creating remote processor with pool size 4
+[2025-May-06 09:44:16.709] [58206] INFO     | MainThread           [__main__.compare_models:134] Starting simulation on port 43597
+[2025-May-06 09:44:16.709] [58206] ERROR    | MainThread           [__main__.compare_models:226] Error during model comparison: Port 7070 already taken
+Traceback (most recent call last):
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/./compare_models.py", line 138, in compare_models
+    with simulation:
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/simulation.py", line 132, in __enter__
+    self.start()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/simulation.py", line 40, in start
+    assert not is_port_taken(
+AssertionError: Port 7070 already taken
+[2025-May-06 09:44:16.710] [58206] INFO     | MainThread           [__main__.cleanup_simulation:67] Simulation terminated gracefully
+[2025-May-06 09:44:16.710] [58206] ERROR    | MainThread           [__main__.main:283] Error in main: Port 7070 already taken
+Traceback (most recent call last):
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/./compare_models.py", line 278, in main
+    asyncio.run(compare_models(current_model, reference_model, game_port=game_port))
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/env/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/./compare_models.py", line 138, in compare_models
+    with simulation:
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/simulation.py", line 132, in __enter__
+    self.start()
+  File "/Users/wenben/Project/Client/osrs-pvp-reinforcement-learning/pvp-ml/pvp_ml/env/simulation.py", line 40, in start
+    assert not is_port_taken(
+AssertionError: Port 7070 already taken

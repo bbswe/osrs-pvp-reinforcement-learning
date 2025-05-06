@@ -1,0 +1,1480 @@
+{
+  "trained_steps": 13312000,
+  "trained_rollouts": 130,
+  "normalized_observations": true,
+  "observation_mean": [
+    0.3789917528629303,
+    0.4213225543498993,
+    0.19968563318252563,
+    0.10179963707923889,
+    52.266597747802734,
+    0.26714789867401123,
+    0.32376042008399963,
+    0.25577667355537415,
+    0.0,
+    0.0,
+    0.902874231338501,
+    0.6644808053970337,
+    0.3776763081550598,
+    0.4221051335334778,
+    0.20021845400333405,
+    0.10120656341314316,
+    0.26604801416397095,
+    0.3200056552886963,
+    0.24725380539894104,
+    0.0,
+    0.0,
+    52.6576042175293,
+    0.9594321250915527,
+    0.901311993598938,
+    3.6930956840515137,
+    7.1947808265686035,
+    2.861337661743164,
+    0.45862215757369995,
+    0.7172138690948486,
+    4.681320667266846,
+    4.905259132385254,
+    6.367361068725586,
+    6.6562957763671875,
+    0.24895857274532318,
+    0.8927435278892517,
+    0.8801705837249756,
+    0.9400316476821899,
+    0.8992968201637268,
+    0.9253493547439575,
+    1.52817964553833,
+    0.30777207016944885,
+    0.22465510666370392,
+    0.009455006569623947,
+    2.2383503913879395,
+    1.5305031538009644,
+    0.3144308626651764,
+    0.019555050879716873,
+    -0.7024629712104797,
+    -0.6867203116416931,
+    0.13497525453567505,
+    0.1343367099761963,
+    0.013224673457443714,
+    0.013736922293901443,
+    0.01408621110022068,
+    0.38602083921432495,
+    0.29803940653800964,
+    0.2890182435512543,
+    0.47735655307769775,
+    0.6573522686958313,
+    0.6628239750862122,
+    3.0895841121673584,
+    0.22973571717739105,
+    2.965723752975464,
+    0.048531852662563324,
+    0.04795575514435768,
+    1.0448158979415894,
+    0.5926380157470703,
+    0.22009892761707306,
+    0.23638813197612762,
+    0.29359710216522217,
+    0.22433413565158844,
+    0.2366301268339157,
+    0.2887091338634491,
+    0.4729706048965454,
+    0.5934292674064636,
+    0.19948215782642365,
+    0.2756941616535187,
+    0.2354143112897873,
+    0.1990671455860138,
+    0.27265945076942444,
+    0.23071424663066864,
+    0.27707961201667786,
+    0.20570524036884308,
+    0.21662259101867676,
+    0.2945740520954132,
+    0.209137424826622,
+    0.21930333971977234,
+    0.28823980689048767,
+    0.4502435624599457,
+    0.196358323097229,
+    0.28026485443115234,
+    0.23447854816913605,
+    0.1976376622915268,
+    0.28072458505630493,
+    0.23078158497810364,
+    0.26282957196235657,
+    74.1131591796875,
+    99.0,
+    38.88192367553711,
+    99.0,
+    99.0,
+    80.46429443359375,
+    99.0,
+    0.03239400312304497,
+    0.48176485300064087,
+    0.42428508400917053,
+    0.09769156575202942,
+    0.6294195652008057,
+    0.09769156575202942,
+    0.4849996566772461,
+    0.050856515765190125,
+    0.020548002794384956,
+    0.015154523774981499,
+    0.010699520818889141,
+    0.35456469655036926,
+    0.3999679386615753,
+    0.18211621046066284,
+    0.022581428289413452,
+    0.0072859833016991615,
+    0.008137772791087627,
+    0.025346072390675545,
+    0.47070229053497314,
+    0.007699443493038416,
+    0.021558964625000954,
+    87.66152954101562,
+    17.55476951599121,
+    149.21954345703125,
+    119.55963134765625,
+    5.026791572570801,
+    6.934840679168701,
+    111.81759643554688,
+    107.2296142578125,
+    4.1298112869262695,
+    58.9320068359375,
+    76.43553924560547,
+    73.72054290771484,
+    168.34246826171875,
+    100.5914535522461,
+    160.06698608398438,
+    131.30690002441406,
+    89.8138427734375,
+    141.44175720214844,
+    130.1373291015625,
+    88.07042694091797,
+    134.49676513671875,
+    89.26879119873047,
+    18.63475227355957,
+    148.7179412841797,
+    36.11342239379883,
+    110.58755493164062,
+    107.86724853515625,
+    63.2304573059082,
+    77.45401763916016,
+    79.24950408935547,
+    167.98876953125,
+    96.47154998779297,
+    160.034423828125,
+    130.9334716796875,
+    86.41410064697266,
+    138.70416259765625,
+    0.32462698221206665,
+    0.3369162380695343,
+    0.022205302491784096,
+    0.022343670949339867,
+    0.06713694334030151,
+    0.06544528901576996,
+    1.0266714096069336,
+    0.9945118427276611,
+    0.4493658244609833,
+    0.8734225034713745,
+    0.03499549254775047,
+    0.9809907674789429,
+    0.2003878504037857,
+    0.78824782371521,
+    0.3936901390552521,
+    0.38120049238204956,
+    0.906234085559845,
+    0.6642609238624573,
+    0.8923512697219849,
+    0.8446670770645142,
+    3.4572954177856445,
+    6.983547210693359,
+    2.765024423599243,
+    0.4395303726196289,
+    0.7030714154243469,
+    0.883017361164093,
+    0.8694339990615845,
+    0.9398519992828369,
+    0.8895706534385681,
+    0.9135053157806396,
+    1.5305031538009644,
+    0.3144308626651764,
+    0.009608099237084389,
+    2.2387912273406982,
+    0.019978567957878113,
+    0.012884050607681274,
+    0.3949218690395355,
+    0.6221175193786621,
+    0.6270985007286072,
+    3.08561372756958,
+    0.22173239290714264,
+    2.965723752975464,
+    1.025336742401123,
+    0.031226186081767082,
+    0.4831323027610779,
+    0.4244752824306488,
+    0.09676023572683334,
+    0.6282213926315308,
+    0.09676023572683334,
+    0.48728856444358826,
+    0.05078110843896866,
+    0.019424205645918846,
+    0.015082033351063728,
+    0.010385139845311642,
+    0.35213392972946167,
+    0.39917775988578796,
+    0.18338055908679962,
+    0.02360464259982109,
+    0.0077445185743272305,
+    0.0073781548999249935,
+    0.026580460369586945,
+    0.4702179431915283,
+    0.0071205683052539825,
+    0.0203495342284441,
+    87.70246124267578,
+    17.531320571899414,
+    149.23802185058594,
+    119.41240692138672,
+    5.026307106018066,
+    6.936675548553467,
+    111.97002410888672,
+    107.1312026977539,
+    4.124111175537109,
+    58.912086486816406,
+    76.45911407470703,
+    73.71046447753906,
+    168.3921356201172,
+    100.65157318115234,
+    160.12216186523438,
+    131.24147033691406,
+    89.86127471923828,
+    141.44891357421875,
+    130.08840942382812,
+    88.09024047851562,
+    134.49142456054688,
+    89.25504302978516,
+    18.595252990722656,
+    148.7631072998047,
+    36.255706787109375,
+    110.58418273925781,
+    107.82150268554688,
+    63.14107894897461,
+    77.45425415039062,
+    79.14217376708984,
+    167.96334838867188,
+    96.57878875732422,
+    160.0247344970703,
+    130.8357391357422,
+    86.52897644042969,
+    138.5816650390625,
+    0.06504763662815094,
+    0.43696263432502747,
+    0.8658532500267029,
+    0.033991891890764236,
+    0.9807968735694885,
+    0.19851738214492798,
+    0.7814667224884033,
+    0.3843672275543213,
+    0.37051916122436523
+  ],
+  "observation_var": [
+    0.23535703122615814,
+    0.2438097894191742,
+    0.15981122851371765,
+    0.0914364829659462,
+    1439.133544921875,
+    0.195779949426651,
+    0.21893958747386932,
+    0.1903550624847412,
+    7.512020519517826e-12,
+    7.512020519517826e-12,
+    0.06096765026450157,
+    0.13689371943473816,
+    0.23503686487674713,
+    0.24393227696418762,
+    0.16013100743293762,
+    0.09096377342939377,
+    0.1952664852142334,
+    0.21760202944278717,
+    0.18611937761306763,
+    7.512020519517826e-12,
+    7.512020519517826e-12,
+    1427.00537109375,
+    1.5052834749221802,
+    1.4001966714859009,
+    17.915048599243164,
+    59.46607208251953,
+    18.776145935058594,
+    0.6877926588058472,
+    0.13762865960597992,
+    73.55619049072266,
+    76.44084167480469,
+    109.96302795410156,
+    113.79082489013672,
+    0.18697814643383026,
+    0.026978857815265656,
+    0.03834494575858116,
+    0.01912573166191578,
+    0.025133950635790825,
+    0.026735618710517883,
+    2.437485456466675,
+    0.4205470681190491,
+    0.32442453503608704,
+    0.01567135751247406,
+    1.6855449676513672,
+    2.4452037811279297,
+    0.4275766611099243,
+    0.00394965335726738,
+    0.4473772943019867,
+    0.47292113304138184,
+    0.11675696074962616,
+    0.11629032343626022,
+    0.0028385971672832966,
+    0.002893072785809636,
+    0.0029807654209434986,
+    0.23700875043869019,
+    0.20921187102794647,
+    0.2054867446422577,
+    0.2494872808456421,
+    0.22524012625217438,
+    0.22348840534687042,
+    6.931703567504883,
+    0.6272491812705994,
+    6.4484992027282715,
+    0.04617651551961899,
+    0.04565601423382759,
+    0.07899704575538635,
+    0.1864127814769745,
+    0.039686355739831924,
+    0.04778692126274109,
+    0.05346464365720749,
+    0.040534328669309616,
+    0.04777514934539795,
+    0.052133891731500626,
+    0.0944225862622261,
+    0.1867261379957199,
+    0.03877466917037964,
+    0.048333365470170975,
+    0.0435689315199852,
+    0.039908334612846375,
+    0.0478939451277256,
+    0.04266182705760002,
+    0.04561513289809227,
+    0.05823666602373123,
+    0.06162938475608826,
+    0.07716559618711472,
+    0.05902717635035515,
+    0.06208658963441849,
+    0.0749005377292633,
+    0.1160891130566597,
+    0.055188652127981186,
+    0.07317475974559784,
+    0.06506562978029251,
+    0.05726924538612366,
+    0.07432492822408676,
+    0.06481478363275528,
+    0.06881009787321091,
+    171.92376708984375,
+    7.363283316408342e-08,
+    879.0795288085938,
+    7.363283316408342e-08,
+    7.363283316408342e-08,
+    420.4710693359375,
+    7.363283316408342e-08,
+    0.03134462609887123,
+    0.24966752529144287,
+    0.24426724016666412,
+    0.08814789354801178,
+    0.2332504689693451,
+    0.08814789354801178,
+    0.2497749924659729,
+    0.04827013239264488,
+    0.020125791430473328,
+    0.014924859628081322,
+    0.010585037060081959,
+    0.22884856164455414,
+    0.23999367654323578,
+    0.14894983172416687,
+    0.022071516141295433,
+    0.007232898846268654,
+    0.008071553893387318,
+    0.02470366284251213,
+    0.24914173781871796,
+    0.0076401629485189915,
+    0.021094176918268204,
+    1159.614990234375,
+    107.46622467041016,
+    467.3151550292969,
+    570.223876953125,
+    0.2293274700641632,
+    0.2571347951889038,
+    624.2330322265625,
+    385.9175720214844,
+    0.24430958926677704,
+    2288.302490234375,
+    932.9154663085938,
+    3789.028076171875,
+    7976.2880859375,
+    1267.4234619140625,
+    7222.64306640625,
+    4414.076171875,
+    821.8151245117188,
+    5431.16943359375,
+    6966.16162109375,
+    730.3564453125,
+    6546.40380859375,
+    611.8910522460938,
+    94.66015625,
+    460.5783386230469,
+    3182.9560546875,
+    918.0531005859375,
+    730.4524536132812,
+    2207.4365234375,
+    512.3656005859375,
+    3688.857421875,
+    7918.3740234375,
+    1050.9237060546875,
+    7189.3642578125,
+    4405.599609375,
+    681.8351440429688,
+    4867.33984375,
+    0.21924418210983276,
+    0.22340373694896698,
+    0.021712223067879677,
+    0.02184443548321724,
+    0.0626295730471611,
+    0.06116221100091934,
+    33.28214645385742,
+    32.276580810546875,
+    0.24743616580963135,
+    0.11055570095777512,
+    0.033770814538002014,
+    0.018647802993655205,
+    0.1602325737476349,
+    0.16691331565380096,
+    0.23869818449020386,
+    0.23588666319847107,
+    0.06388022750616074,
+    0.1351792961359024,
+    1.4485838413238525,
+    1.3482078313827515,
+    17.38508415222168,
+    59.4454460144043,
+    18.364456176757812,
+    0.673114538192749,
+    0.14542734622955322,
+    0.030268792062997818,
+    0.04307384416460991,
+    0.019255565479397774,
+    0.02837538719177246,
+    0.030709240585565567,
+    2.4452037811279297,
+    0.4275766611099243,
+    0.015923693776130676,
+    1.683506727218628,
+    0.0040159160271286964,
+    0.002747155027464032,
+    0.2389584630727768,
+    0.23508737981319427,
+    0.23384590446949005,
+    6.922519683837891,
+    0.6035990715026855,
+    6.4484992027282715,
+    0.07619890570640564,
+    0.03025110624730587,
+    0.24971535801887512,
+    0.2442961484193802,
+    0.08739765733480453,
+    0.2335592359304428,
+    0.08739765733480453,
+    0.24983841180801392,
+    0.04820237308740616,
+    0.019046902656555176,
+    0.014854561537504196,
+    0.01027729082852602,
+    0.22813573479652405,
+    0.23983490467071533,
+    0.14975221455097198,
+    0.02304746024310589,
+    0.007684540934860706,
+    0.007323715835809708,
+    0.025873929262161255,
+    0.2491130530834198,
+    0.007069867104291916,
+    0.01993543468415737,
+    1161.5606689453125,
+    107.6052017211914,
+    466.29046630859375,
+    549.951171875,
+    0.22736793756484985,
+    0.25096583366394043,
+    610.0410766601562,
+    376.7669982910156,
+    0.23250830173492432,
+    2289.59765625,
+    934.4366455078125,
+    3789.838134765625,
+    7978.97802734375,
+    1267.4515380859375,
+    7227.841796875,
+    4401.1787109375,
+    819.7559204101562,
+    5426.0849609375,
+    6920.439453125,
+    730.03564453125,
+    6505.13916015625,
+    615.8023071289062,
+    94.88800048828125,
+    465.68487548828125,
+    3175.547119140625,
+    917.265869140625,
+    735.5919189453125,
+    2207.923583984375,
+    516.266845703125,
+    3682.571044921875,
+    7912.40234375,
+    1051.2896728515625,
+    7182.9921875,
+    4384.41162109375,
+    679.6066284179688,
+    4833.025390625,
+    0.06081642583012581,
+    0.24602621793746948,
+    0.11615139245986938,
+    0.0328364297747612,
+    0.01883450709283352,
+    0.15910819172859192,
+    0.17077648639678955,
+    0.23662905395030975,
+    0.23323467373847961
+  ],
+  "observations": [
+    {
+      "id": "player_using_melee",
+      "description": "Player using melee"
+    },
+    {
+      "id": "player_using_ranged",
+      "description": "Player using ranged"
+    },
+    {
+      "id": "player_using_mage",
+      "description": "Player using mage"
+    },
+    {
+      "id": "player_spec_equipped",
+      "description": "Player spec equipped"
+    },
+    {
+      "id": "special_energy_percent",
+      "description": "Special energy percent"
+    },
+    {
+      "id": "player_melee_prayer",
+      "description": "Player melee prayer"
+    },
+    {
+      "id": "player_ranged_prayer",
+      "description": "Player ranged prayer"
+    },
+    {
+      "id": "player_magic_prayer",
+      "description": "Player magic prayer"
+    },
+    {
+      "id": "player_smite_prayer",
+      "description": "Player smite prayer"
+    },
+    {
+      "id": "player_redemption_prayer",
+      "description": "Player redemption prayer"
+    },
+    {
+      "id": "player_health_percent",
+      "description": "Player's health percent"
+    },
+    {
+      "id": "target_health_percent",
+      "description": "Target's health percent"
+    },
+    {
+      "id": "target_using_melee",
+      "description": "Target using melee"
+    },
+    {
+      "id": "target_using_ranged",
+      "description": "Target using ranged"
+    },
+    {
+      "id": "target_using_mage",
+      "description": "Target using mage"
+    },
+    {
+      "id": "target_spec_equipped",
+      "description": "Target spec equipped"
+    },
+    {
+      "id": "target_melee_prayer",
+      "description": "Target melee prayer"
+    },
+    {
+      "id": "target_ranged_prayer",
+      "description": "Target ranged prayer"
+    },
+    {
+      "id": "target_magic_prayer",
+      "description": "Target magic prayer"
+    },
+    {
+      "id": "target_smite_prayer",
+      "description": "Target smite prayer"
+    },
+    {
+      "id": "target_redemption_prayer",
+      "description": "Target redemption prayer"
+    },
+    {
+      "id": "target_special_percent",
+      "description": "Target special percent"
+    },
+    {
+      "id": "range_potion_doses",
+      "description": "Range potion doses"
+    },
+    {
+      "id": "combat_potion_doses",
+      "description": "Combat potion doses"
+    },
+    {
+      "id": "super_restore_doses",
+      "description": "Super restore doses"
+    },
+    {
+      "id": "brew_doses",
+      "description": "Brew doses"
+    },
+    {
+      "id": "food_count",
+      "description": "Food count"
+    },
+    {
+      "id": "karambwan_count",
+      "description": "Karambwan count"
+    },
+    {
+      "id": "prayer_points",
+      "description": "Prayer points"
+    },
+    {
+      "id": "player_frozen_ticks",
+      "description": "Player's frozen ticks"
+    },
+    {
+      "id": "target_frozen_ticks",
+      "description": "Target's frozen ticks"
+    },
+    {
+      "id": "player_frozen_immunity_ticks",
+      "description": "Player's frozen immunity ticks"
+    },
+    {
+      "id": "target_frozen_immunity_ticks",
+      "description": "Target's frozen immunity ticks"
+    },
+    {
+      "id": "player_location_can_melee",
+      "description": "Player location can melee"
+    },
+    {
+      "id": "strength_level",
+      "description": "Strength level"
+    },
+    {
+      "id": "attack_level",
+      "description": "Attack level"
+    },
+    {
+      "id": "defense_level",
+      "description": "Defense level"
+    },
+    {
+      "id": "ranged_level",
+      "description": "Ranged level"
+    },
+    {
+      "id": "magic_level",
+      "description": "Magic level"
+    },
+    {
+      "id": "attack_cycle_ticks",
+      "description": "Attack cycle ticks"
+    },
+    {
+      "id": "food_cycle_ticks",
+      "description": "Food cycle ticks"
+    },
+    {
+      "id": "potion_cycle_ticks",
+      "description": "Potion cycle ticks"
+    },
+    {
+      "id": "karambwan_cycle_ticks",
+      "description": "Karambwan cycle ticks"
+    },
+    {
+      "id": "food_attack_delay",
+      "description": "Food attack delay"
+    },
+    {
+      "id": "target_attack_cycle_ticks",
+      "description": "Target attack cycle ticks"
+    },
+    {
+      "id": "target_potion_cycle_ticks",
+      "description": "Target potion cycle ticks"
+    },
+    {
+      "id": "pending_damage_on_target",
+      "description": "Pending damage on target"
+    },
+    {
+      "id": "ticks_until_hit_on_target",
+      "description": "Ticks until hit on target"
+    },
+    {
+      "id": "ticks_until_hit_on_player",
+      "description": "Ticks until hit on player"
+    },
+    {
+      "id": "player_just_attacked",
+      "description": "Player just attacked"
+    },
+    {
+      "id": "target_just_attacked",
+      "description": "Target just attacked"
+    },
+    {
+      "id": "tick_new_attack_damage",
+      "description": "Tick new attack damage"
+    },
+    {
+      "id": "damage_on_player_tick",
+      "description": "Damage on player tick"
+    },
+    {
+      "id": "damage_on_target_tick",
+      "description": "Damage on target tick"
+    },
+    {
+      "id": "player_attacking_target",
+      "description": "Player attacking target"
+    },
+    {
+      "id": "player_is_moving",
+      "description": "Player is moving"
+    },
+    {
+      "id": "target_is_moving",
+      "description": "Target is moving"
+    },
+    {
+      "id": "player_has_pid",
+      "description": "Player has PID"
+    },
+    {
+      "id": "ice_barrage_usable",
+      "description": "Ice barrage usable"
+    },
+    {
+      "id": "blood_barrage_usable",
+      "description": "Blood barrage usable"
+    },
+    {
+      "id": "destination_to_target_distance",
+      "description": "Destination to target distance"
+    },
+    {
+      "id": "player_to_destination_distance",
+      "description": "Player to destination distance"
+    },
+    {
+      "id": "player_to_target_distance",
+      "description": "Player to target distance"
+    },
+    {
+      "id": "player_prayer_correct",
+      "description": "Player prayer correct"
+    },
+    {
+      "id": "target_prayer_correct",
+      "description": "Target prayer correct"
+    },
+    {
+      "id": "total_damage_dealt_scale",
+      "description": "Total damage dealt scale (relative to damage received)"
+    },
+    {
+      "id": "target_attack_confidence",
+      "description": "Target attack confidence"
+    },
+    {
+      "id": "target_melee_hit_percent",
+      "description": "Target melee hit percent"
+    },
+    {
+      "id": "target_magic_hit_percent",
+      "description": "Target magic hit percent"
+    },
+    {
+      "id": "target_ranged_hit_percent",
+      "description": "Target ranged hit percent"
+    },
+    {
+      "id": "player_melee_hit_percent",
+      "description": "Player melee hit percent"
+    },
+    {
+      "id": "player_magic_hit_percent",
+      "description": "Player magic hit percent"
+    },
+    {
+      "id": "player_ranged_hit_percent",
+      "description": "Player ranged hit percent"
+    },
+    {
+      "id": "target_number_of_hits_off_prayer",
+      "description": "Target number of hits off prayer"
+    },
+    {
+      "id": "target_prayer_confidence",
+      "description": "Target prayer confidence"
+    },
+    {
+      "id": "target_magic_prayer_percent",
+      "description": "Target magic prayer percent"
+    },
+    {
+      "id": "target_ranged_prayer_percent",
+      "description": "Target ranged prayer percent"
+    },
+    {
+      "id": "target_melee_prayer_percent",
+      "description": "Target melee prayer percent"
+    },
+    {
+      "id": "player_magic_prayer_percent",
+      "description": "Player magic prayer percent"
+    },
+    {
+      "id": "player_ranged_prayer_percent",
+      "description": "Player ranged prayer percent"
+    },
+    {
+      "id": "player_melee_prayer_percent",
+      "description": "Player melee prayer percent"
+    },
+    {
+      "id": "target_correct_pray_percent",
+      "description": "Target correct pray percent"
+    },
+    {
+      "id": "recent_target_melee_hit_percent",
+      "description": "Recent (5) target melee hit percent"
+    },
+    {
+      "id": "recent_target_magic_hit_percent",
+      "description": "Recent (5) target magic hit percent"
+    },
+    {
+      "id": "recent_target_ranged_hit_percent",
+      "description": "Recent (5) target ranged hit percent"
+    },
+    {
+      "id": "recent_player_melee_hit_percent",
+      "description": "Recent (5) player melee hit percent"
+    },
+    {
+      "id": "recent_player_magic_hit_percent",
+      "description": "Recent (5) player magic hit percent"
+    },
+    {
+      "id": "recent_player_ranged_hit_percent",
+      "description": "Recent (5) player ranged hit percent"
+    },
+    {
+      "id": "recent_target_number_of_hits_off_prayer",
+      "description": "Recent (5) target number of hits off prayer"
+    },
+    {
+      "id": "recent_target_magic_prayer_percent",
+      "description": "Recent (5) target magic prayer percent"
+    },
+    {
+      "id": "recent_target_ranged_prayer_percent",
+      "description": "Recent (5) target ranged prayer percent"
+    },
+    {
+      "id": "recent_target_melee_prayer_percent",
+      "description": "Recent (5) target melee prayer percent"
+    },
+    {
+      "id": "recent_player_magic_prayer_percent",
+      "description": "Recent (5) player magic prayer percent"
+    },
+    {
+      "id": "recent_player_ranged_prayer_percent",
+      "description": "Recent (5) player ranged prayer percent"
+    },
+    {
+      "id": "recent_player_melee_prayer_percent",
+      "description": "Recent (5) player melee prayer percent"
+    },
+    {
+      "id": "recent_target_correct_pray_percent",
+      "description": "Recent (5) target correct pray percent"
+    },
+    {
+      "id": "absolute_attack_level",
+      "description": "Absolute attack level"
+    },
+    {
+      "id": "absolute_strength_level",
+      "description": "Absolute strength level"
+    },
+    {
+      "id": "absolute_defense_level",
+      "description": "Absolute defense level"
+    },
+    {
+      "id": "absolute_ranged_level",
+      "description": "Absolute ranged level"
+    },
+    {
+      "id": "absolute_magic_level",
+      "description": "Absolute magic level"
+    },
+    {
+      "id": "absolute_prayer_level",
+      "description": "Absolute prayer level"
+    },
+    {
+      "id": "absolute_hitpoints_level",
+      "description": "Absolute hitpoints level"
+    },
+    {
+      "id": "is_enchanted_dragon_bolt",
+      "description": "Is ranged using dragon bolts e"
+    },
+    {
+      "id": "is_enchanted_opal_bolt",
+      "description": "Is ranged using opal bolts e"
+    },
+    {
+      "id": "is_enchanted_diamond_bolt",
+      "description": "Is ranged using diamond bolts e"
+    },
+    {
+      "id": "is_mage_spec_weapon_loadout",
+      "description": "Is mage spec weapon in loadout"
+    },
+    {
+      "id": "is_ranged_spec_weapon_loadout",
+      "description": "Is ranged spec weapon in loadout"
+    },
+    {
+      "id": "is_mage_spec_weapon_nightmare_staff",
+      "description": "Is mage spec weapon volatile nightmare staff"
+    },
+    {
+      "id": "is_ranged_spec_weapon_zaryte_cbow",
+      "description": "Is ranged spec weapon zaryte cbow"
+    },
+    {
+      "id": "is_ranged_spec_weapon_ballista",
+      "description": "Is ranged spec weapon ballista"
+    },
+    {
+      "id": "is_ranged_spec_weapon_morrigans_javelin",
+      "description": "Is ranged spec weapon morrigan's javelins"
+    },
+    {
+      "id": "is_ranged_spec_weapon_dragon_knife",
+      "description": "Is ranged spec weapon dragon knife"
+    },
+    {
+      "id": "is_ranged_spec_weapon_dark_bow",
+      "description": "Is ranged spec weapon dark bow"
+    },
+    {
+      "id": "is_melee_spec_dclaws",
+      "description": "Is melee spec dragon claws"
+    },
+    {
+      "id": "is_melee_spec_dds",
+      "description": "Is melee spec dds"
+    },
+    {
+      "id": "is_melee_spec_ags",
+      "description": "Is melee spec ags"
+    },
+    {
+      "id": "is_melee_spec_vls",
+      "description": "Is melee spec vls"
+    },
+    {
+      "id": "is_melee_spec_stat_hammer",
+      "description": "Is melee spec stat hammer"
+    },
+    {
+      "id": "is_melee_spec_ancient_godsword",
+      "description": "Is melee spec ancient godsword"
+    },
+    {
+      "id": "is_melee_spec_gmaul",
+      "description": "Is melee spec granite maul"
+    },
+    {
+      "id": "is_blood_fury",
+      "description": "Is blood fury used for melee"
+    },
+    {
+      "id": "is_dharoks_set",
+      "description": "Is melee attacks using dharoks set"
+    },
+    {
+      "id": "is_zuriel_staff",
+      "description": "Is zuriel's staff used for magic"
+    },
+    {
+      "id": "magic_accuracy",
+      "description": "Expected magic accuracy"
+    },
+    {
+      "id": "magic_strength",
+      "description": "Expected magic strength"
+    },
+    {
+      "id": "ranged_accuracy",
+      "description": "Expected ranged accuracy"
+    },
+    {
+      "id": "ranged_strength",
+      "description": "Expected ranged strength"
+    },
+    {
+      "id": "ranged_attack_speed",
+      "description": "Expected ranged attack speed"
+    },
+    {
+      "id": "ranged_attack_range",
+      "description": "Expected ranged attack range"
+    },
+    {
+      "id": "melee_accuracy",
+      "description": "Expected melee accuracy"
+    },
+    {
+      "id": "melee_strength",
+      "description": "Expected melee strength"
+    },
+    {
+      "id": "melee_attack_speed",
+      "description": "Expected melee attack speed"
+    },
+    {
+      "id": "magic_gear_ranged_defence",
+      "description": "Magic gear ranged defence"
+    },
+    {
+      "id": "magic_gear_mage_defence",
+      "description": "Magic gear mage defence"
+    },
+    {
+      "id": "magic_gear_melee_defence",
+      "description": "Magic gear melee defence"
+    },
+    {
+      "id": "ranged_gear_ranged_defence",
+      "description": "Ranged gear ranged defence"
+    },
+    {
+      "id": "ranged_gear_mage_defence",
+      "description": "Ranged gear mage defence"
+    },
+    {
+      "id": "ranged_gear_melee_defence",
+      "description": "Ranged gear melee defence"
+    },
+    {
+      "id": "melee_gear_ranged_defence",
+      "description": "Melee gear ranged defence"
+    },
+    {
+      "id": "melee_gear_mage_defence",
+      "description": "Melee gear mage defence"
+    },
+    {
+      "id": "melee_gear_melee_defence",
+      "description": "Melee gear melee defence"
+    },
+    {
+      "id": "target_current_gear_ranged_defence",
+      "description": "Target current gear ranged defence"
+    },
+    {
+      "id": "target_current_gear_mage_defence",
+      "description": "Target current gear mage defence"
+    },
+    {
+      "id": "target_current_gear_melee_defence",
+      "description": "Target current gear melee defence"
+    },
+    {
+      "id": "target_magic_accuracy",
+      "description": "Expected target magic accuracy"
+    },
+    {
+      "id": "target_magic_strength",
+      "description": "Expected target magic strength"
+    },
+    {
+      "id": "target_ranged_accuracy",
+      "description": "Expected target ranged accuracy"
+    },
+    {
+      "id": "target_ranged_strength",
+      "description": "Expected target ranged strength"
+    },
+    {
+      "id": "target_melee_accuracy",
+      "description": "Expected target melee accuracy"
+    },
+    {
+      "id": "target_melee_strength",
+      "description": "Expected target melee strength"
+    },
+    {
+      "id": "target_magic_gear_ranged_defence",
+      "description": "Target magic gear ranged defence"
+    },
+    {
+      "id": "target_magic_gear_mage_defence",
+      "description": "Target magic gear mage defence"
+    },
+    {
+      "id": "target_magic_gear_melee_defence",
+      "description": "Target magic gear melee defence"
+    },
+    {
+      "id": "target_ranged_gear_ranged_defence",
+      "description": "Target ranged gear ranged defence"
+    },
+    {
+      "id": "target_ranged_gear_mage_defence",
+      "description": "Target ranged gear mage defence"
+    },
+    {
+      "id": "target_ranged_gear_melee_defence",
+      "description": "Target ranged gear melee defence"
+    },
+    {
+      "id": "target_melee_gear_ranged_defence",
+      "description": "Target melee gear ranged defence"
+    },
+    {
+      "id": "target_melee_gear_mage_defence",
+      "description": "Target melee gear mage defence"
+    },
+    {
+      "id": "target_melee_gear_melee_defence",
+      "description": "Target melee gear melee defence"
+    },
+    {
+      "id": "is_lms_restrictions",
+      "description": "Is fight using LMS restrictions"
+    },
+    {
+      "id": "is_pvp_arena_rules",
+      "description": "Is fight using PvP Arena rules (ex. no PID swap)"
+    },
+    {
+      "id": "is_veng_active",
+      "description": "Is player vengeance active"
+    },
+    {
+      "id": "is_target_veng_active",
+      "description": "Is target vengeance active"
+    },
+    {
+      "id": "is_player_lunar_spellbook",
+      "description": "Is player using lunar spellbook"
+    },
+    {
+      "id": "is_target_lunar_spellbook",
+      "description": "Is target using lunar spellbook"
+    },
+    {
+      "id": "player_veng_cooldown_ticks",
+      "description": "Ticks until player vengeance available"
+    },
+    {
+      "id": "target_veng_cooldown_ticks",
+      "description": "Ticks until target vengeance available"
+    },
+    {
+      "id": "is_blood_magic_attack_available",
+      "description": "Is blood magic attack available"
+    },
+    {
+      "id": "is_ice_magic_attack_available",
+      "description": "Is ice magic attack available"
+    },
+    {
+      "id": "is_magic_spec_attack_available",
+      "description": "Is magic spec attack available"
+    },
+    {
+      "id": "is_range_attack_available",
+      "description": "Is range attack available"
+    },
+    {
+      "id": "is_range_spec_attack_available",
+      "description": "Is range spec attack available"
+    },
+    {
+      "id": "is_melee_attack_available",
+      "description": "Is melee attack available"
+    },
+    {
+      "id": "is_melee_spec_attack_available",
+      "description": "Is melee spec attack available"
+    },
+    {
+      "id": "is_food_anglerfish",
+      "description": "Is primary food anglerfish (it can heal over max health)"
+    }
+  ],
+  "actions": [
+    {
+      "id": "no_op_attack",
+      "description": "No-op attack",
+      "size": 1
+    },
+    {
+      "id": "mage_attack",
+      "description": "Mage attack",
+      "size": 1
+    },
+    {
+      "id": "ranged_attack",
+      "description": "Ranged attack",
+      "size": 1
+    },
+    {
+      "id": "melee_attack",
+      "description": "Melee attack",
+      "size": 1
+    },
+    {
+      "id": "no_melee_attack",
+      "description": "No melee attack",
+      "size": 1
+    },
+    {
+      "id": "basic_melee_attack",
+      "description": "Basic melee attack",
+      "size": 1
+    },
+    {
+      "id": "melee_special_attack",
+      "description": "Melee special attack",
+      "size": 1
+    },
+    {
+      "id": "no_ranged_attack",
+      "description": "No ranged attack",
+      "size": 1
+    },
+    {
+      "id": "basic_ranged_attack",
+      "description": "Basic ranged attack",
+      "size": 1
+    },
+    {
+      "id": "ranged_special_attack",
+      "description": "Ranged special attack",
+      "size": 1
+    },
+    {
+      "id": "no_mage_attack",
+      "description": "No magic attack",
+      "size": 1
+    },
+    {
+      "id": "use_ice_spell",
+      "description": "Use ice spell",
+      "size": 1
+    },
+    {
+      "id": "use_blood_spell",
+      "description": "Use blood spell",
+      "size": 1
+    },
+    {
+      "id": "use_magic_spec",
+      "description": "Use magic spec",
+      "size": 1
+    },
+    {
+      "id": "no_potion",
+      "description": "No potion",
+      "size": 1
+    },
+    {
+      "id": "use_brew",
+      "description": "Use brew",
+      "size": 1
+    },
+    {
+      "id": "use_restore_potion",
+      "description": "Use restore potion",
+      "size": 1
+    },
+    {
+      "id": "use_combat_potion",
+      "description": "Use combat potion",
+      "size": 1
+    },
+    {
+      "id": "use_ranged_potion",
+      "description": "Use ranged potion",
+      "size": 1
+    },
+    {
+      "id": "dont_eat_food",
+      "description": "Don't eat food",
+      "size": 1
+    },
+    {
+      "id": "eat_primary_food",
+      "description": "Eat primary food",
+      "size": 1
+    },
+    {
+      "id": "dont_karambwan",
+      "description": "Don't karambwan",
+      "size": 1
+    },
+    {
+      "id": "eat_karambwan",
+      "description": "Eat karambwan",
+      "size": 1
+    },
+    {
+      "id": "dont_use_veng",
+      "description": "Don't use vengeance",
+      "size": 1
+    },
+    {
+      "id": "use_veng",
+      "description": "Use vengeance",
+      "size": 1
+    },
+    {
+      "id": "no_gear",
+      "description": "No gear swap",
+      "size": 1
+    },
+    {
+      "id": "use_tank_gear",
+      "description": "Use tank gear",
+      "size": 1
+    },
+    {
+      "id": "dont_move",
+      "description": "Don't move",
+      "size": 1
+    },
+    {
+      "id": "move_next_to_target",
+      "description": "Move next to target",
+      "size": 1
+    },
+    {
+      "id": "move_under_target",
+      "description": "Move under target",
+      "size": 1
+    },
+    {
+      "id": "move_to_farcast_tile",
+      "description": "Move to farcast tile",
+      "size": 1
+    },
+    {
+      "id": "move_diagonal_to_target",
+      "description": "Move diagonal to target",
+      "size": 1
+    },
+    {
+      "id": "no_op_farcast",
+      "description": "Don't move (farcast)",
+      "size": 1
+    },
+    {
+      "id": "farcast_2_tiles",
+      "description": "Farcast 2 tiles away",
+      "size": 1
+    },
+    {
+      "id": "farcast_3_tiles",
+      "description": "Farcast 3 tiles away",
+      "size": 1
+    },
+    {
+      "id": "farcast_4_tiles",
+      "description": "Farcast 4 tiles away",
+      "size": 1
+    },
+    {
+      "id": "farcast_5_tiles",
+      "description": "Farcast 5 tiles away",
+      "size": 1
+    },
+    {
+      "id": "farcast_6_tiles",
+      "description": "Farcast 6 tiles away",
+      "size": 1
+    },
+    {
+      "id": "farcast_7_tiles",
+      "description": "Farcast 7 tiles away",
+      "size": 1
+    },
+    {
+      "id": "no_op_prayer",
+      "description": "No-op prayer",
+      "size": 1
+    },
+    {
+      "id": "mage_prayer",
+      "description": "Mage prayer",
+      "size": 1
+    },
+    {
+      "id": "ranged_prayer",
+      "description": "Ranged prayer",
+      "size": 1
+    },
+    {
+      "id": "melee_prayer",
+      "description": "Melee prayer",
+      "size": 1
+    },
+    {
+      "id": "smite_prayer",
+      "description": "Smite prayer",
+      "size": 1
+    },
+    {
+      "id": "redemption_prayer",
+      "description": "Redemption prayer",
+      "size": 1
+    }
+  ]
+}
