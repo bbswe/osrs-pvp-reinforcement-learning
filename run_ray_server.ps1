@@ -1,6 +1,12 @@
 # PowerShell script for connecting Dell PowerEdge R620 server to a Ray cluster as a worker node
 # This script optimizes for server hardware with many cores but no GPU
 
+# Navigate to the pvp-ml directory (required for train command to work)
+$ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$PvpMlPath = Join-Path -Path $ScriptDir -ChildPath "pvp-ml"
+Set-Location -Path $PvpMlPath
+Write-Host "Changed directory to: $(Get-Location)"
+
 # Configuration settings (adjust as needed)
 $GamingPcIp = "192.168.1.100"  # REPLACE with your actual gaming PC IP
 $RayPort = 6379
