@@ -1,5 +1,7 @@
 # PowerShell script for setting up Ray head node on Windows gaming PC
 # For Ryzen 9 7950X3D CPU and RTX 4090 GPU
+# Enable running scripts in powershell
+#PowerShell -ExecutionPolicy Bypass -File run_ray_gaming_pc.ps1
 
 # Configuration settings
 $GamingPcIp = "192.168.1.100"  # REPLACE with your actual gaming PC IP
